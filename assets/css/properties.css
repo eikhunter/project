@@ -1,0 +1,31 @@
+/*
+-------------------------------------
+| properties.css
+-------------------------------------
+*/
+
+/*
+-------------------------------------
+| Main Body
+-------------------------------------
+*/
+body {
+	min-width: 1020px;
+	background-color: #fafafa;
+	font-family: 'Open Sans', sans-serif;
+	color: var(---Color_Body);
+	margin: 0
+}
+
+/*
+-------------------------------------
+| Colors
+-------------------------------------
+*/
+:root {
+	--Color_Body: var(--Color_Black);
+	--Color_Black: #333;
+	--Color_Grey: #555;
+	--Color_Orange: #dc6552;
+	--Color_Error: #ed4956;
+}
