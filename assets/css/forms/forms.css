@@ -1,0 +1,44 @@
+/*
+-------------------------------------
+| forms.css
+-------------------------------------
+*/
+.frm-Form_Section {
+  display: flex;
+  margin: 0 40px 6px;
+  justify-content: center;
+}
+
+.frm-Form_Input {
+  background: 0 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #262626;
+  font-size: 14px;
+  padding: 9px 8px 7px;
+  -webkit-appearance: none;
+  width: 100%;
+}
+
+.frm-Form_Button {
+  background-color: var(--Color_Orange);
+  color: #fff;
+}
+
+.frm-Form_Below {
+  margin-top: 20px;
+  text-align: center;
+  color: var(--Color_Grey);
+}
+
+.frm-Form_Error {
+  margin: 10px 0;
+  color: var(--Color_Error);
+}
+
+.frm-Form_Link {
+  color: var(--Color_Orange);
+  text-decoration: none;
+}
